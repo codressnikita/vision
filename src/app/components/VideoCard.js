@@ -57,7 +57,7 @@ function VideoCard({ name = "", thumbnail, src, openVid }) {
       </div>
 
       {/* Video name below the rectangle with hover effect */}
-      <div className="text-center w-96 px-4 text-lg font-medium text-gray-900 group-hover:text-orange-800 group-hover:underline">
+      <div className="text-center w-96 px-4 text-3xl font-medium text-gray-900">
         {name}
       </div>
     </div>
