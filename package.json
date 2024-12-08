@@ -36,6 +36,7 @@
   "build": {
     "appId": "com.vision.museaum",
     "productName": "Vision of the Museum",
+    "publish": null,
     "files": [
       "out/**/*",
       "electron.js",
