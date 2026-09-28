@@ -32,7 +32,7 @@ const Landing = ({ videos, naveenJindalVideo, handleVideoClick }) => {
       </div>
 
       {/* Start video grid after half the viewport height */}
-      <div className="grid grid-cols-2 gap-y-6">
+      <div className="grid grid-cols-3 gap-y-6">
         {videos?.map((video) => (
           <VideoCard
             key={video.name} // Use a unique identifier for each video
