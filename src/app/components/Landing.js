@@ -12,13 +12,13 @@ const Landing = ({ videos, naveenJindalVideo, handleVideoClick }) => {
           rightSize: { height: 30, width: 200 },
         }}
       />
-      <div className="flex flex-row items-center justify-between h-[40vh]">
+      <div className="flex flex-row items-center justify-between h-[25vh]">
         {/* <VideoCard
           key={video.name} // Use a unique identifier for each video
           vid={video}
           openVid={() => handleVideoClick(video)} // Pass the video data to the click handler
         /> */}
-        <div className="h-[40vh] w-full flex flex-row items-center justify-center p-16 bg-transparent text-gray-700">
+        <div className="h-[25vh] w-full flex flex-row items-center justify-center px-16 bg-transparent text-gray-700">
           <div className="flex flex-col items-center justify-center">
             {/* <h1 className="text-lg md:text-xl mb-2">It happens only in</h1> */}
             <h2 className="text-5xl md:text-7xl font-bold mb-2">
